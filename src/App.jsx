@@ -59,10 +59,10 @@ function VoteTracker() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await fetch("http://localhost:9000/candidates");
+        const res = await fetch("/data/data.json");
         if (!res.ok) throw new Error("Failed to fetch API");
         const data = await res.json();
-        dispatch({ type: "dataReceived", payload: data });
+        dispatch({ type: "dataReceived", payload: data.candidates });
       } catch (err) {
         dispatch({ type: "dataFailed" });
       }
@@ -150,3 +150,4 @@ function VoteTracker() {
 }
 
 export default VoteTracker;
+
