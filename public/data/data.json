@@ -1,0 +1,11 @@
+{
+  "candidates": [
+    { "id": 1, "name": "Alice", "votes": 0 },
+    { "id": 2, "name": "Bob", "votes": 0 },
+    { "id": 3, "name": "Charlie", "votes": 0 },
+    { "id": 4, "name": "Eve", "votes": 0 },
+    { "id": 5, "name": "Dave", "votes": 0 },
+    { "id": 6, "name": "Carol", "votes": 0 },
+    { "id": 7, "name": "John", "votes": 0 }
+  ]
+}
